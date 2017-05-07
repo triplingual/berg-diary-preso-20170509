@@ -1,0 +1,212 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<title>Locating Mary Berg's Diary</title>
+
+		<meta name="description" content="Summarization of the major issues in historicizing and mapping the locatable content in 'Warsaw Ghetto: A Diary by Mary Berg', written by Mary Berg (Miriam Wattenberg) between 1939 and 1944, predominantly in the Warsaw Ghetto but revised, translated, and edited afterward in New York City. Mary Berg's youth and sharp eye for the importance of place make this diary continue to be a valuable historical and affective document when studying the Holocaust, despite being out of print in English for most of the second half of the 20th century.">
+		<meta name="author" content="Trip KIRKPATRICK">
+
+		<link rel="stylesheet" href="css/reveal.css">
+		<link rel="stylesheet" href="css/theme/black.css">
+		<style type="text/css">
+			section h1 { color: #ffffff; }
+			section h3 { color: #ffffff; }
+		</style>
+<!--	If the room is overly lit -->
+<!--
+		<link rel="stylesheet" href="css/theme/white.css">
+-->
+
+		<!-- Theme used for syntax highlighting of code -->
+		<link rel="stylesheet" href="lib/css/zenburn.css">
+
+		<!-- Printing and PDF exports -->
+		<script>
+			var link = document.createElement( 'link' );
+			link.rel = 'stylesheet';
+			link.type = 'text/css';
+			link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
+			document.getElementsByTagName( 'head' )[0].appendChild( link );
+		</script>
+		<style type="text/css">
+			.reveal .footer {
+				position: absolute;
+				bottom: 0;
+				left: 0;
+				padding: .5em;
+				font-size: 1rem;
+				width: 100%;
+				text-align: center;
+				background-color: rgba(64,64,128,.2);
+				z-index: 2;
+			}
+			dl dt, dl dd {
+				font-size: 1.4rem !important;
+			}
+			cite {
+				font-style: italic !important;
+			}
+		</style>
+	</head>
+	<body>
+		<div class="reveal">
+			<div class="slides">
+				<section>
+					<img src="img/wattenberg-closeup.jpg" style="width:40%; border:0px;" />
+					<aside class="notes">
+					<p>
+						This is Miriam Wattenberg, probably taken in Warsaw between December 1940 and January 1943.
+					</p>
+					</aside>
+				</section>
+
+				<section>
+					<img src="img/berg-newspaper.jpg" style="width:40%; border:0px;" />
+					<aside class="notes">
+					<p>
+						This is Mary Berg, taken on May 8, 1945 in an unknown location in the United States.
+					</p>
+					</aside>
+				</section>
+
+				<section>
+					<img src="img/diary.jpg" style="border:0px;" />
+					<aside class="notes">
+					<p>
+						Between these two photos, Miriam spent 342 days fleeing as a refugee from the German conquest of her country, 99 days restricted by diktat to small portion of Warsaw where her captors claimed she had [tuberculosis], 228 days watching the forced labor of her fellow Jews as they built the walls of their own Ghetto under the rifles of the Nazis and the German army, 608 days in cramped apartments inside the Ghetto, 186 days in a prison inside the Ghetto on the knife edge of freedom and deportation, and 412 days alternately travelling and waiting in scared uncertainty before she got to freedom in New York City.
+					</p>
+					</aside>
+				</section>
+				<section data-background="img/umschlagplatz_lg.png">
+					<h1>Locating Mary Berg's Diary</h1>
+					<h3>Finding Limits in Spatializing a Text of the Warsaw Ghetto</h3>
+					<p style="margin-top: 3rem;">Created by <a href="http://triptronix.net/">Trip Kirkpatrick</a> / <a href="http://twitter.com/triplingual">@triplingual</a></p>
+					<aside class="notes">
+					<p>
+						During this time, she kept a diary; this project tries to reflect on the space and time of her stories and her resistance during these 1,647 days.
+					</p>
+					</aside>
+				</section>
+				<section data-background="img/umschlagplatz_lg.png">
+					<section>
+						<img src="img/project-slim.png" style="border:0px;" />
+						<p>Historic map, diary data, textual interpretation</p>
+						<aside class="notes">
+						<p>
+							The project uses contemporary maps as baselayers, overlays them with the located places mentioned in Berg's diary, and accompanies this composite map with an essay looking at childhood, resistance, and both the limits of representation and the representation of limits.
+						</p>
+						</aside>
+					</section>
+					<section>
+						<img src="img/1940-01-05_vignetted.jpg" style="border:0px;" />
+						<aside class="notes">
+						<p>
+							Flagging book for locative text
+						</p>
+						</aside>
+					</section>
+					<section>
+						<img src="img/polish-national-library.png" style="border:0px;" />
+						<p>
+							Finding appropriate maps
+						</p>
+					</section>
+					<section>
+						<img src="img/map-warper.png" style="border:0px;" />
+						<p>
+							Georectifying maps
+						</p>
+					</section>
+					<section>
+						<img src="img/geojson-site-slim.png" style="border:0px;" />
+						<p>Adding points, lines, polygons to the map.</p>
+						<aside class="notes">
+						<p>
+							I add locatable references using geojson.io, with a 1930 map of Warsaw to guide me. I had to make reference also to current maps as well as to other historical maps, including (awkwardly) an unauthorized and poorly done digitization of one of the remarkable maps in Barbara Engelking-Boni and Jacek Leociak's "Warsaw Ghetto: A Guide to the Perished City".
+						</p>
+						</aside>
+					</section>
+					<section>
+						<img src="img/leaflet-text.png" style="border:0px;" />
+						<p>
+							Putting it all into a web interface and contextualizing
+						</p>
+						<aside class="notes">
+						<p>
+							There will be a short essay with the map interface putting some context around it, talking about ghettos, children, play, schooling, diaries, and resistance.
+						</p>
+						</aside>
+					</section>
+				</section>
+				<section data-background="img/umschlagplatz_lg.png">
+					<h2>Why I'm Doing This</h2>
+				</section>
+				<section data-background="img/umschlagplatz_lg.png">
+					<h3>To Show Both Time and Space in the Ghetto Experience</h3>
+					<aside class="notes">
+					<p>
+						When this is all done, my hope is that at least some people using the site will have a greater appreciation for the day-to-day grind of the Warsaw Ghetto, for the fact that it wasn't merely a segregating experience but a terrorizing one over a long period of time.
+					</p>
+					<p>
+						As well, I hope the essay will show Berg's life and diary as both an important kind of resistance effort as well as a documentation of other individual and group resistance efforts.
+					</p>
+					</aside>
+				</section>
+				<section data-background="img/umschlagplatz_lg.png">
+					<h3>To Highlight the Value of Small Data in Digital Humanities Projects</h3>
+					<aside class="notes">
+					<p>
+						I'm interested here in taking a single book, by a single person (leaving aside the editorial process Miriam Wattenberg went through) and, in some senses, close-reading it for historical data. Then I'm re-presenting that data in a way that I hope challenges site visitors to read Miriam Wattenberg's experiences in the Warsaw Ghetto painstakingly. I don't claim to have something that will let site visitors empathize in a way that they wouldn't already. But I do hope to make a small contribution to this moment of transition away from living eyewitnesses to the Holocaust to secondary witnessing.
+					</p>
+					</aside>
+				</section>
+				<section style="text-align: left;">
+					<h1>Thank You</h1>
+					<h3>Credits</h3>
+					<dl id="credits-list">
+						<dt><cite>Close-up portrait of Miriam Wattenberg (Mary Berg), [possibly in the Warsaw ghetto].</cite></dt>
+						<dd>Photography, ca. 1940–1945. 2014.405.1. United States Holocaust Memorial Museum. <a href="http://collections.ushmm.org/search/catalog/pa1180785">http://collections.ushmm.org/search/catalog/pa1180785</a>.</dd>
+						<dt><cite>Mary Berg Holds up a Newspaper Announcing the Surrender of Germany.</cite></dt>
+						<dd>Photography, May 8, 1945. 2014.405.1. United States Holocaust Memorial Museum. <a href="http://collections.ushmm.org/search/catalog/pa1180787">http://collections.ushmm.org/search/catalog/pa1180787</a>.</dd>
+						<dt><cite>Warsaw Ghetto</cite> presentation photograph.</dt>
+						<dd>Photography. Accessed May 7, 2017. <a href="https://www.baumanrarebooks.com/BookImages/86585.jpg">https://www.baumanrarebooks.com/BookImages/86585.jpg</a>.</dd>
+						<dt><cite>Untitled</cite> [Umschlagplatz], 2013</dt>
+						<dd>flickr user mw238 <a href="https://www.flickr.com/photos/mw238/9578558154">https://www.flickr.com/photos/mw238/9578558154</a> <img src="img/by-sa.png" style="height: 18px; vertical-align: bottom; border:none; margin: 0px 0px 8px 0px;" /></dd>
+					</dl>
+				</section>
+			</div>
+		  <div class='footer'>
+			&#8220;Locating Mary Berg's Diary&#8221; &#160; &#160; &#160; &#160;
+			Trip Kirkpatrick, Department of History &#160; &#160; &#160; &#160;
+			@triplingual
+		  </div>
+		</div>
+
+		<script src="lib/js/head.min.js"></script>
+		<script src="js/reveal.js"></script>
+
+		<script>
+			// More info about config & dependencies:
+			// - https://github.com/hakimel/reveal.js#configuration
+			// - https://github.com/hakimel/reveal.js#dependencies
+			Reveal.initialize({
+				controls: true,
+				progress: true,
+				history: true,
+				center: true,
+
+				transition: 'fade', // none/fade/slide/convex/concave/zoom
+
+				dependencies: [
+					{ src: 'plugin/markdown/marked.js' },
+					{ src: 'plugin/markdown/markdown.js' },
+					{ src: 'plugin/notes/notes.js', async: true },
+					{ src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } }
+				]
+			});
+		</script>
+	</body>
+</html>
